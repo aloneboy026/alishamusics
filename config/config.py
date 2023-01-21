@@ -36,16 +36,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Team-Alisha/AnonX",
+    "https://github.com/aloneboy026/alishamusics",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Feeling_Alone_Abhi")
+    "SUPPORT_CHANNEL", "https://t.me/mondoclub")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Alisha_Support")
+    "SUPPORT_GROUP", "https://t.me/mondo_lover")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/59f6eee7bcc5f34b4102b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/202c8e5a57f1f8597fe2a.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph//file/ba1e2843461ec2233a3c0.jpg",
+    "https://telegra.ph/file/53112d2692ac8d0b499c0.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
